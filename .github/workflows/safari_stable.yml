@@ -1,10 +1,11 @@
-name: "All Tests: Safari (stable)"
+**Fixed:["Web-Platform-tests/.github/workflows/safari_stable.yml"] **
 
-# We never interact with the GitHub API, thus we can simply disable all
-# permissions the GitHub token would have.
-permissions: {}
+Subject_Header: #Set "Foo" & "BAR" Value = ["Made_All_Tests_for]|["Safari_Browser"]|@stable"
 
-on:
+//#We never interact with the GitHub API, 
+//#Enforcing_Rule_to_follow = " Enforce All "api" disabled "
+//Enforcing_Removal_Of_Permissions in "module or schem's in GitHub with token permissions '{}',
+// Deploy_Auto_config_of_workflow_with @Eslint**
   workflow_dispatch:
   workflow_run:
     workflows: [epochs]
